@@ -2,6 +2,10 @@
 
  <footer>
  
+ <br><br>
+ 
+
+ 
  <span class="copy">&copy;Ipartek Servicios Informaticos</span>
  
 <!--  Enlaces de paginas estaticas -->

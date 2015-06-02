@@ -62,12 +62,12 @@
 					<h4>Selectores</h4>
 			
 					<ul>
-					<li><a href="ejemplos/css/atributos.jsp">Atributos</a></li>
-					<li><a href="ejemplos/css/hijos.jsp">Hijos</a></li>
-					<li><a href="ejemplos/css/adyacentes.jsp">Adyacentes</a></li>
-					<li><a href="ejemplos/css/pseudo_clases.jsp">Pseudo-clases</a></li>
-					<li><a href="ejemplos/css/pseudo_elementos.jsp">Pseudo-elementos</a></li>
-					<li><a href="ejemplos/css/css3.jsp">CSS3</a></li>
+					<li><a href="ejemplos/css/selectores/atributos.jsp">Atributos</a></li>
+					<li><a href="ejemplos/css/selectores/hijos.jsp">Hijos</a></li>
+					<li><a href="ejemplos/css/selectores/adyacentes.jsp">Adyacentes</a></li>
+					<li><a href="ejemplos/css/selectores/pseudo_clases.jsp">Pseudo-clases</a></li>
+					<li><a href="ejemplos/css/selectores/pseudo_elementos.jsp">Pseudo-elementos</a></li>
+					<li><a href="ejemplos/css/selectores/css3.jsp">CSS3</a></li>
 				
 					</ul>
 				</li>    
@@ -77,7 +77,12 @@
 					<h4>Posicionamiento</h4>
 			
 					<ul>
-					<li><a href="ejemplos/nuevos_elementos/figure.jsp">Figure</a></li>
+					<li><a href="ejemplos/css/posicionamiento/normal.jsp">Nolmal</a></li>
+					<li><a href="ejemplos/css/posicionamiento/relativo.jsp">Relativo</a></li>
+					<li><a href="ejemplos/css/posicionamiento/absoluto.jsp">Absoluto</a></li>
+					<li><a href="ejemplos/css/posicionamiento/fijo.jsp">Fijo</a></li>
+					<li><a href="ejemplos/css/posicionamiento/inherit.jsp">Inherit</a></li>
+					<li><a href="ejemplos/css/posicionamiento/flotante.jsp">Flotante</a></li>
 				
 					</ul>
 				

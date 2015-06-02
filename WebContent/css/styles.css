@@ -86,6 +86,25 @@ legend{
 }
 
 
+article h1{
+	
+	background-color:rgb(223, 201, 201);
+}
+
+
+article footer{
+	
+	border: 1px solid grey;
+	padding:15px;
+}
+
+section{
+	
+	border: 1px solid grey;
+	padding:15px;
+}
+
+
 /* aside{ */
 	
 /* 	float:right; */
@@ -98,10 +117,11 @@ legend{
 /* } */
 
 
-/* footer{ */
-/* 	font-size:15; */
-	
-/* } */
+ footer{ 
+ 	
+ 	border:1px solid gray;
+	margin-top: 15px;
+ } 
 
 /* section{ */
 /* 	float:left; */
@@ -130,6 +150,15 @@ form input[type="text"]:focus:required:invalid{
 }
 
 /*Clases comunes*/
+
+
+.cnt_article{
+	
+	border: 1px solid grey;
+	padding: 20px;
+	
+	
+}
 
 /* .clearfix:before, .clearfix:after{ */
 	

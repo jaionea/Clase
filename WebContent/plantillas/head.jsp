@@ -40,7 +40,7 @@
 	<header>
 	
  	<div id="logo">
- 	<a href="index.jsp" title="Volver home">
+ 	<a href="Copy of index.jsp" title="Volver home">
  	<img src="img/dado.png"/>
  	
  	</a>
