@@ -173,54 +173,79 @@
 				function cine(diasemana, edad) {
 
 					var precio = null;
-
-					switch (diasemana) {
-
-						case 'lunes':
-							if (edad < 35) {
-								precio = 2;
-							} else {
-								precio = 5;
-							}
+					
+					if(edad>0 && edad<130){
+					
+						switch (diasemana) {
+						
+						
 	
-							break;
-	
-						case 'martes':
-							if (edad <= 25) {
-								precio = 2;
-							} else if ((edad > 25) && (edad < 50)) {
-								precio = 5;
-							} else {
-								precio = 7;
-							}
-	
-							break;
-	
-						case 'miercoles':
-							if (edad < 18) {
-								precio = 3;
-							} else if ((edad >= 18) && (edad < 50)) {
-								precio = 5;
-							} else {
-								precio = 8;
-							}
-	
-							break;
-	
-						case 'jueves':
-							if (edad < 18) {
-								precio = 5;
-							} else {
-								precio = 10;
-							}
-	
-							break;
-	
-						default:
-							precio = 10;
-
-					}//end switch
-
+							case 'lunes':
+								if (edad < 36) {
+									precio = 2;
+								} else {
+									precio = 5;
+								}
+		
+								break;
+		
+							case 'martes':
+								if (edad <= 25) {
+									precio = 2;
+								} else if ((edad > 25) && (edad <= 50)) {
+									precio = 5;
+								} else {
+									precio = 7;
+								}
+		
+								break;
+		
+							case 'miercoles':
+								if (edad < 18) {
+									precio = 3;
+								} else if ((edad > 18) && (edad <= 50)) {
+									precio = 5;
+								} else {
+									precio = 8;
+								}
+		
+								break;
+		
+							case 'jueves':
+								if (edad < 18) {
+									precio = 5;
+								} else {
+									precio = 10;
+								}
+		
+								break;
+								
+							case 'viernes':
+								
+									precio = 10;
+		
+								break;
+							case 'sabado':
+								
+									precio = 10;
+								
+		
+								break;
+							case 'domingo':
+								
+									precio = 10;
+								
+		
+								break;
+		
+							default:
+								precio = null;
+							console.info('dia incorrecto')
+						
+						}//end switch
+					
+					}else{console.info('Edad incorrecta')}
+					
 					return precio;
 
 				}
@@ -230,7 +255,7 @@
  				
 
 				console.info('CINE\n')
-				console.info('EL precio de la entrada =  '+ cine('viernes', 2) +' \u20AC');
+				console.info('EL precio de la entrada =  '+ cine('miercoles', 25) +' \u20AC');
 				//console.info('lunes < 35 años = 2  '+ cine('lunes', 34)==2' \u20AC');
 				</script>
  		
