@@ -18,7 +18,15 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   
   <link rel="stylesheet" type="text/css" href="css/styles.css?v=1.0">
-
+ 
+ <!--__Font Awesome -->
+ <link rel="stylesheet" type="text/css" href="font/fontawesome/font-awesome-4.3.0/css/font-awesome.css">
+ 
+ <!--__Font Awesome -->
+ 
+ <link rel="stylesheet" type="text/css" href="font/New iconmoon/style.css">
+ 
+ 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -37,17 +45,21 @@
 	 
 
 	 
-	<header>
+	<header id="head">
 	
- 	<div id="logo">
- 	<a href="Copy of index.jsp" title="Volver home">
- 	<img src="img/dado.png"/>
+	
+		<div class="clearfix">
+ 			<div id="logo">
+ 			<a href="Copy of index.jsp" title="Volver home">
+ 			<img src="img/dado.png"/>
  	
- 	</a>
- 	</div>
+ 			</a>
+ 		</div>
 		
-		<h1>Ejemplos HTML, CSS3 y JS</h1>
+			<h1>Ejemplos HTML, CSS3 y JS</h1>
 		
 
-	</header>	
+		
+
+<!-- 	Navegacion menu principal	 -->
 

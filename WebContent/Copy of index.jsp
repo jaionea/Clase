@@ -4,10 +4,13 @@
 
 
 
-<div id="home">	
+<div id="home" class="clearfix">	
 
 
-	
+<!-- clearfix;limpio para que no entre nada mas -->
+
+
+	<span class="icon-box fa-5x"></span>
 	
 	  
 <!-- 	  -->
@@ -23,7 +26,7 @@
 	  
 	   <h1>El afortunado en leer es:</h1>
 	   <label for="btn_ganador" class="numero" id="afortunado" >0</label>
-	   <input type="button" 
+	   <input type="button" class="btn"
 			  value="Obtener nuevo afortunad@" 
 			  id="btn_ganador" name="btn_ganador" 
 			  onclick="obtener_ganador();"/>
@@ -65,21 +68,7 @@
 			</tr>
 		</table>
 	   
-	   <br>
-	   <br>
-	   <br>
-	   <br>
-	   <br>
-	   <br>
-	   <br>
-	   <br>
-	   <br>
-	   <br>
-	   <br>
-	   <br>
-	   <br>
-	   <br>
-	   <br>
+
 	 
 	 </section>
 	 
@@ -102,10 +91,11 @@
 	 			<li><a href="https://github.com/" target="_blank">GitHub</a></li>
 	 			<li><a href="http://librosweb.es/libro/css_avanzado/" target="_blank">CSS</a></li>
 	 		</ul>
+	  </aside>
+ 	</div> <!--div home -->
 	 
-<!-- 	</div> -->
-	 
-	 </aside>
+	
+</div>	 <!--div container
 	 
 <!-- 	 <div class=clearfix></div> -->
 	 

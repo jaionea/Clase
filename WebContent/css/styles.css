@@ -33,6 +33,18 @@ a:hover{
 	color: orange;
 }
 
+/*Sprite*/
+
+
+
+
+
+
+ 
+
+/* Recomendable en la impresion */
+
+/* a:hover a:after  { content: " (" attr(href) ") "; } */
 ol, ul {
 	list-style-type: disc;
 }
@@ -54,9 +66,9 @@ ol ol, ul ul{
 
 
 h1 {	
-  font-size: 50px;
+  font-size: 45px;
   margin-bottom:20px;
-  color: green;
+  rgb(82, 120, 137);
   font-family: arial;
   text-align: center;	
 }
@@ -100,40 +112,123 @@ article footer{
 
 section{
 	
-	border: 1px solid grey;
-	padding:15px;
+/* 	border: 1px solid grey; */
+	width: 75%;
+	float:left;
 }
 
 
-/* aside{ */
+aside{ 
 	
-/* 	float:right; */
-/* 	width:20%; */
-/* 	border:2px solid grey; */
-/* 	color: green; */
-/* 	font-size:15; */
-	
-	
-/* } */
+
+/* border: 1px solid grey; */
+background: grey;
+float: left;
+margin-right: 0px;
+width: 19%;
+padding: 5px 0px 5px 30px;
+height: 500px;
+position: absolute;
+right: 70px;
+bottom: 0px;
+top: 110px;
+ } 
+
+
 
 
  footer{ 
  	
- 	border:1px solid gray;
-	margin-top: 15px;
- } 
-
-/* section{ */
-/* 	float:left; */
-/* 	width:60%; */
+/*  	border:1px solid gray; */
+/* 	margin-bottom: 0px; */
+	float:left;
+ 	clear:left;
 	
-/* } */
+ } 
+ 
+  
+ #head{
+ position:fixed;
+ background-color:#FFF;
+ margin-top:10px;
+ z-index: 100;
+ }
+ 
+ 
+ #head #logo, #head h1{
+ float:left;
+ }
+ 
+ 
+ 
+ 
+ /*MENU*/
+ 
+ 
+ .navi * {
+	margin: 0px;
+	padding: 0px;
+}
+
+#cnt_menu {
+	margin: auto;
+	width: 700px;
+	font-family: Arial, Helvetica, sans-serif;
+	position:fixed;
+	top:60px;
+}
+
+.navi, .navi ul, ol {
+	list-style: none;
+}
+
+.navi >li {
+	float: left;
+}
+
+.navi li a, .navi li h3 {
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 12px;
+	display: block;
+}
 
 
-/* 
+.navi li a:hover, .navi li h3:hover {
+	background-color: #434343;
+}
+
+.navi li ul {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+}
+
+.navi li:hover>ul {
+	display: block;
+}
+
+.navi li ul li {
+	position: relative;
+}
+
+.navi li ul li ul {
+	right: -160px;
+	top: 0px;
+}
+
+/*contenedor*/
+
+#content{
+	padding-top: 100px;
+	width: 100%;
+	}
+
+
+/*
 Validaciones formularios
 */
-
 form input[type="text"]:required:valid{
 	
 /* 	border:5px solid green; */
@@ -160,26 +255,50 @@ form input[type="text"]:focus:required:invalid{
 	
 }
 
-/* .clearfix:before, .clearfix:after{ */
-	
-/* 	content:""; */
-/* 	display: table; */
-/* } */
+/************************
+ClearFix
+**********************/
 
-/* .clearfix:after{ */
-	
-/* 	clear:both; */
-/* } */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
 
-/* .clearfix{ */
-	
-/* 	zoom:1; */
-/* } */
+
+
+
+
 
 /* 
 	ESTILOS REUTILIZABLES
     Regla con selector por CLASS para usar en todas las páginas
 */
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
 
 
 table.tabla_azul, .tabla_azul tr, .tabla_azul td{
@@ -198,6 +317,17 @@ table.tabla_azul, .tabla_azul tr, .tabla_azul td{
 .tabla_azul th{
   color: grey;	
 }
+
+table.tabla_calc, .tabla_calc tr, .tabla_calc td{
+	border:1px solid grey;
+	text-align: center;
+	font-family: arial;
+	font-size: 35px;  
+	color: #0099FF;    
+}
+
+
+
 
 
 .btn_volver{
@@ -218,12 +348,7 @@ table.tabla_azul, .tabla_azul tr, .tabla_azul td{
 	color:green;	
 }
 
-.cartel{
-	float:left;
-	margin-right:30px;
-	width:250px;
-	height:auto;
-}
+
 
 
 /*
@@ -235,33 +360,92 @@ table.tabla_azul, .tabla_azul tr, .tabla_azul td{
 /*NAV*/
 
 #logo img{
-	width: 35px;
-	height:35px;
+	width: 45px;
+	height:45px;
+
 }
 
 /* HOME */
+
+/* #home section, #home aside{float:left;} */
+
+/* #home secion{width: 60%; margin-right:9%;} */
+/* #home aside{width: 26%; back-ground:#DDD; min-height:300px;padding:2%} */
+
 #home{
+	width: 90%;
+	margin: 0 auto;
+	
 
 }
 
 /* CARTELERA */
-#cartelera li h3{
-  color: #0076EC;
-  font-family: "dinengschriftstd", "Another Font", generic;
-  font-size: 25px;
-  font-weight: bold;  
+
+#cartelera li{
+	
+	float:left;
+	width:30%;
+	margin-right:1%;
+}
+#cartelera ul{
+	float:left;
+	padding-left: 17%;
+	list-style-type: none;
+	
 }
 
-#cartelera li h3:hover{
-	color: orange;
+#cartelera .cartel img{
+	width:230px;
 }
+
+#cartelera li:nth-child(3n+0){
+	margin-rigt:0;
+}
+
+#cartelera .cartel{
+	
+	position:relative;
+	width:200px;
+}
+
+#cartelera .titulo{
+	position: absolute;
+	bottom: 3px;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 90%;
+	padding: 1% 5%;
+	min-height: 37px;
+	display: none;
+	}
+
+#cartelera .cartel:hover .titulo{ display: block}
+
+#cartelera .titulo h3{
+	
+	color:rgba(34, 147, 152, 1);
+	text-align: center;
+}
+
+
+
+/* #cartelera li h3{ */
+/*   color: #0076EC; */
+/*   font-family: "dinengschriftstd", "Another Font", generic; */
+/*   font-size: 25px; */
+/*   font-weight: bold;   */
+/* } */
+
+/* #cartelera li h3:hover{ */
+/* 	color: orange; */
+/* } */
 
 
 /* CARTELERA_DETALLE */
-#cartelera_detalle h1{
-	color:blue;
-	text-align:left;
-}
+ #cartelera_detalle { 
+/* 	color:blue; */
+	text-align:left; 
+	padding-top: 70px;
+ } 
 
 
 /* Regla con selector por ID */
@@ -272,19 +456,18 @@ table.tabla_azul, .tabla_azul tr, .tabla_azul td{
 
 #encabezado{
 	border:5px dotted green;
+	padding-top: 80px;
 	
 }
 
 #container{
-	width:900px;
-	background-color:#FFF;
-	min-height:700px;
-	margin:0 auto;	
-	padding:0 20px;
-	border-right:1px solid grey;
-	border-left:1px solid grey;
-	clear:both;
-}
+	width: 90%;
+	background-color: #FFF;
+	min-height: 700px;
+	margin: 0 auto;
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+	clear: both;}
 
 
 

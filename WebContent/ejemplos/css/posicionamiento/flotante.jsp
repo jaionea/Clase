@@ -70,9 +70,9 @@
  			
  			Capitulo 9; pagina198
  			
- 			<a href="http://librosweb.es/libro/css_avanzado/capitulo_1/limpiar_floats.html">Limpiar float</a>
- 			<a href="http://learnlayout.com/clearfix.html"></a>
- 			<a href="http://learnlayout.com/clearfix.html"></a>
+ 			<a href="http://librosweb.es/libro/css_avanzado/capitulo_1/limpiar_floats.html">librosweb-float</a>
+ 			<a href="http://learnlayout.com/clearfix.html">float-enlace1</a>
+ 			<a href="http://jps.com.ve/flotando-elementos-en-css-y-la-magia-de-clearfix/"></a>
  			
  		
  		</footer>

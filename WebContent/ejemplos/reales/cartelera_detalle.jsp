@@ -1,27 +1,7 @@
-<!-- <!doctype html> -->
-
-<!-- <html lang="es"> -->
-
-<!-- <head> -->
-<!--   <meta charset="utf-8"> -->
-
-<!--   <title>Det&aacute;lle Pelicula</title> -->
-<!--   <meta name="description" content="Detalle de la pelicula"> -->
-<!--   <meta name="author" content="Ander Uraga Real"> -->
-
-<!--   <link rel="stylesheet" type="text/css" href="../../css/styles.css?v=1.0"> -->
-
-<!--   <!--[if lt IE 9]> -->
-<!--   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> -->
-<!--   <![endif]--> -->
-  
-<!-- </head> -->
 
 <jsp:include page="../../plantillas/head.jsp"></jsp:include>
 
-<body>
 
-<div id="container">
   <div id="cartelera_detalle">
 	  
 		<div class="btn_volver">
@@ -53,12 +33,12 @@
 		
 		
   </div> <!-- cartelera_detalle -->  
-</div> <!-- container -->  
+<!-- </div> container   -->
  
-  <script type="text/javascript" src="../../js/main.js"></script>
+<!--   <script type="text/javascript" src="../../js/main.js"></script> -->
   
-</body>
-</html>
+<!-- </body> -->
+<!-- </html> -->
 
 
 

@@ -1,25 +1,6 @@
-<!-- <!doctype html> -->
 
-<!-- <html lang="es"> -->
-
-<!-- <head> -->
-<!--   <meta charset="utf-8"> -->
-
-<!--   <title>elementos_basicos</title> -->
-<!--   <meta name="description" content="Elementos Basicos en HTML5"> -->
-<!--   <meta name="author" content="Mihai Androne"> -->
-
-<!--   <!-- <link rel="stylesheet" type="text/css" href="css/styles.css?v=1.0">--> -->
-
-<!--   <!--[if lt IE 9]> -->
-<!--   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> -->
-<!--   <![endif]--> -->
-  
   <jsp:include page="../../plantillas/head.jsp"></jsp:include>
-  
-  <body>
 
-  <div id="container">
   
 	<a href="../../index.jsp">Volver</a>	
   
@@ -82,10 +63,10 @@
 		<br/>
 		<br/>
 		
-	</div>
+<!-- 	</div> -->
 	
 	
-<script type="text/javascript" src="js/main.js"></script>
+<!-- <script type="text/javascript" src="js/main.js"></script> -->
 
-  </body>
-</html>
+<!--   </body> -->
+<!-- </html> -->

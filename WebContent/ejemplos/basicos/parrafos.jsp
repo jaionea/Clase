@@ -1,11 +1,9 @@
 
   
  <jsp:include page="../../plantillas/head.jsp"></jsp:include>
-  <body>
-
-  <div id="container">
+ 
   
-	<jsp:include page="../../plantillas/nav.jsp"></jsp:include>
+	
   
 	  <div id="encabezado"  >
 	  
@@ -75,10 +73,10 @@
 		<br/>
 		<br/>
 		
-	</div>
+<!-- 	</div> -->
 	
 	
-<script type="text/javascript" src="../../js/main.js"></script>
+<!-- <script type="text/javascript" src="../../js/main.js"></script> -->
 
-  </body>
-</html>
+<!--   </body> -->
+<!-- </html> -->

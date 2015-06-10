@@ -1,13 +1,12 @@
- <nav>
  
-<!--  	<div id="logo"> -->
-<!--  	<a href="index.jsp" title="Volver home"> -->
-<!--  	<img src="img/dado.png"/> -->
- 	
-<!--  	</a> -->
-<!--  	</div> -->
+<!--  <nav class="clearfix"> -->
+ 
+ <nav id="cnt_menu">
+ 
+<!--  <div > -->
 	  
-	  <ul>	
+	  <ul class="navi">	
+	  
 		<li>
 			<h3>Básicos</h3>
 			<ul>
@@ -15,14 +14,17 @@
 				<li><a href="ejemplos/basicos/block_inline.jsp">Block e inline</a></li>
 				<li><a href="ejemplos/basicos/listas.jsp">Listas</a></li>
 			</ul>
+			
 		</li>
+		
 		<li>
 			<h3>Reales</h3>
 			<ul>
 				<li><a href="ejemplos/reales/cartelera.jsp">Cartelera</a></li>
 				<li><a href="ejemplos/reales/cartelera_detalle.jsp">Detalle Cartelera</a></li>
 			</ul>
-		</li>  
+		</li>
+		  
 		<li>
 			<h3>Plugins</h3>
 			<ul>
@@ -30,6 +32,7 @@
 				
 			</ul>
 		</li> 
+		
 		<li>
 			<h3>Formularios</h3>
 			<ul>
@@ -59,7 +62,7 @@
 			<h3>CSS3</h3>
 			<ul>
 				<li>
-					<h4>Selectores</h4>
+					<h3>Selectores</h3>
 			
 					<ul>
 					<li><a href="ejemplos/css/selectores/atributos.jsp">Atributos</a></li>
@@ -74,7 +77,7 @@
 	  
 	 			 <li>
 					
-					<h4>Posicionamiento</h4>
+					<h3>Posicionamiento</h3>
 			
 					<ul>
 					<li><a href="ejemplos/css/posicionamiento/normal.jsp">Nolmal</a></li>
@@ -87,9 +90,39 @@
 					</ul>
 				
 				</li>    
+				
+				 <li>
+					
+					<h3>Tecnicas avanzadas</h3>
+			
+					<ul>
+					<li><a href="ejemplos/css/tecnicas_avanzadas/font_awesome.jsp">Font awesome</a></li>
+					<li><a href="ejemplos/css/tecnicas_avanzadas/sprite_fantasma.jsp">Sprite fantasma</a></li>
+					<li><a href="font/icon_font.jsp">Icon Font</a></li>
+				
+					</ul>
+				
+				</li>    
+	  
 	  
 	  
 	  </ul>
 	  
-	  
+	</li>
+	
+	<li>
+			<h3>Java Script</h3>
+			<ul>
+				<li><a href="ejemplos/javascript/variables.jsp">Variables</a></li>
+				<li><a href="ejemplos/javascript/calculadora.jsp">Calculadora</a></li>
+			</ul>
+		</li>    
+	</ul>  
+	
+
 </nav>
+<!-- </nav> -->
+
+</header>
+
+<div id="content">
