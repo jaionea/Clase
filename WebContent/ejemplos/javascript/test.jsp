@@ -78,25 +78,25 @@
   	  
 
   	  QUnit.test( "cine(diasemana, edad)", function( assert ) {
-	  assert.ok( cine('lunes',34) == 2 , "lunes <= 35, 34 = 2 €" );
-	  assert.ok( cine('lunes',35) == 5 , "lunes > 35, 35 = 2 €" );
+	  assert.ok( cine('lunes',34) == 2 , "lunes < 35, 34 = 2 €" );
+	  assert.ok( cine('lunes',35) == 2 , "lunes >= 35, 35 = 2 €" );
 	  assert.ok( cine('lunes',36) == 5 , "lunes > 35, 36 = 5 €" );
 	  
 	  assert.ok( cine('martes',24) == 2 , "martes < 25, 24 = 2 €" );
 	  assert.ok( cine('martes',25) == 2 , "martes <= 25, 25 = 2 €" );
 	  assert.ok( cine('martes',26) == 5 , "martes > 25, 26 = 5 €" );
-	  assert.ok( cine('martes',50) == 7 , "martes <= 50, 50 = 5 €" );
+	  assert.ok( cine('martes',50) == 5 , "martes <= 50, 50 = 5 €" );
 	  assert.ok( cine('martes',51) == 7 , "martes > 50, 51 = 7 €" );
 	  
 	  assert.ok( cine('miercoles',17) == 3 , "miercoles <= 18, 17 = 3 €" );
-	  assert.ok( cine('miercoles',18) == 5 , "miercoles <= 18, 18 = 3 €" );
+	  assert.ok( cine('miercoles',18) == 3 , "miercoles <= 18, 18 = 3 €" );
 	  assert.ok( cine('miercoles',19) == 5 , "miercoles > 18, 19 = 5 €" );
 	  assert.ok( cine('miercoles',49) == 5 , "miercoles <= 50, 49 = 5 €" );
-	  assert.ok( cine('miercoles',50) == 8 , "miercoles <= 50, 50 = 5 €" );
+	  assert.ok( cine('miercoles',50) == 5 , "miercoles <= 50, 50 = 5 €" );
 	  assert.ok( cine('miercoles',51) == 8 , "miercoles > 50, 51 = 8 €" );
 	  
-	  assert.ok( cine('jueves',17) == 5 , "jueves < 18, 17 = 5 €" );
-	  assert.ok( cine('jueves',18) == 10 , "jueves < 18, 18 = 10 €" );
+	  assert.ok( cine('jueves',18) == 5 , "jueves <= 18, 18 = 5 €" );
+	  assert.ok( cine('jueves',19) == 10 , "jueves < 18, 19 = 10 €" );
 	  
 	  assert.ok( cine('viernes',18) == 10 , "Es viernes precio = 10 €" );
 	  

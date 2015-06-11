@@ -181,7 +181,7 @@
 						
 	
 							case 'lunes':
-								if (edad < 36) {
+								if (edad <= 35) {
 									precio = 2;
 								} else {
 									precio = 5;
@@ -201,7 +201,7 @@
 								break;
 		
 							case 'miercoles':
-								if (edad < 18) {
+								if (edad <= 18) {
 									precio = 3;
 								} else if ((edad > 18) && (edad <= 50)) {
 									precio = 5;
@@ -212,7 +212,7 @@
 								break;
 		
 							case 'jueves':
-								if (edad < 18) {
+								if (edad <= 18) {
 									precio = 5;
 								} else {
 									precio = 10;
