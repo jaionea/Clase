@@ -101,6 +101,8 @@ legend{
 article h1{
 	
 	background-color:rgb(223, 201, 201);
+	padding: 15px;
+	color: rgb(148, 88, 88);
 }
 
 
@@ -112,9 +114,9 @@ article footer{
 
 section{
 	
-/* 	border: 1px solid grey; */
-	width: 75%;
-	float:left;
+width: 90%;
+padding: 5%;
+
 }
 
 
@@ -139,10 +141,7 @@ top: 110px;
 
  footer{ 
  	
-/*  	border:1px solid gray; */
-/* 	margin-bottom: 0px; */
-	float:left;
- 	clear:left;
+
 	
  } 
  
@@ -348,7 +347,20 @@ table.tabla_calc, .tabla_calc tr, .tabla_calc td{
 	color:green;	
 }
 
+.cnt_article{
+	
+padding:20px;
+border:1px solid grey	
+	
+}
 
+.cnt_article h2{
+	
+	border-bottom: 2px solid rgb(226, 126, 126);
+	font-size: 20px;
+	color: rgb(226, 126, 126);
+	
+}
 
 
 /*
