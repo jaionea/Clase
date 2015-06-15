@@ -104,29 +104,31 @@
 				
 				</li>    
 	  
+	  	  
+	 		 </ul>
 	  
-	  
-	  </ul>
-	  
-	</li>
+		</li>
 	
-	<li>
+		<li>
 			<h3>Java Script</h3>
 			
 			<ul>
+				<li>
 			
-			<li>basicos></li>
-			<ul>
+				<h3>Introduccion</h3>
+			
+				<ul>
 				<li><a href="ejemplos/javascript/variables.jsp">Variables</a></li>
 				<li><a href="ejemplos/javascript/calculadora.jsp">Calculadora</a></li>
-				<li><a href="ejemplos/javascript/objetos.jsp">Calculadora</a></li>
+				<li><a href="ejemplos/javascript/objetos.jsp">Objetos</a></li>
+				</ul>
+		
+				</li>
+		
 			</ul>
 		
-		</li>
-		
-		
-		</ul>
 		</li>    
+	
 	</ul>  
 	
 

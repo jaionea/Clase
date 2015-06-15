@@ -14,6 +14,24 @@
   
   <script>
   
+  	QUnit.test( "Date -Fechas", function( assert ) {
+  		
+  		var fecha = new Date (2015,5,15);
+  		 
+  		 assert.ok(convertirFecha(fecha, CORTO)=='15/06/2015' );
+  		 assert.ok(convertirFecha(fecha, LARGO)==' el 15 de junio del 2015' );
+  		 assert.ok(convertirFecha(fecha, 'formato no valido')== null, 'formato no valido' );
+  		 assert.ok(convertirFecha(null, CORTO)== null, 'formato no valido' );
+  		 assert.ok(convertirFecha(undefined, CORTO)== null, 'formato no valido' );
+  		 assert.ok(convertirFecha('45/ff/2020', CORTO)== null, 'formato no valido' );
+  		
+  	});
+  
+  
+  
+  
+  
+  
   	  QUnit.test( "Funciones predefinidas", function( assert ) {
 	  assert.ok( escape('Hola Mundo') == 'Hola%20Mundo', "'Hola Mundo' escapado" );
 	  assert.ok( escape('Hóla Mundo') == 'H%F3la%20Mundo', "'Hóla Mundo' escapado" );

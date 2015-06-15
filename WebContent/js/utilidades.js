@@ -2,6 +2,9 @@
 Funciones para utilizar en todo el proyecto
 */
 
+
+
+
 		/*************************
  			Cine de Almendralejo
  		*************************/
@@ -124,3 +127,24 @@ Funciones para utilizar en todo el proyecto
  					
  				return result;
  			}	
+ 			
+ 			/**
+ 			 * convierte fecha a formato español
+ 			 * @param date objeto tipo Date con la fecha a covertir
+ 			 * @param formato CORTO: 'dd/mm/aaaa'; LARGO: '1 de enero del 2016'
+ 			 * @returns {String} cadena de texto con la fecha convertida, si falla retorna null
+ 			 */
+ 			
+ 			// Formato posibles para las fechas
+ 			const CORTO = 'corto';
+ 			const LARGO = 'largo';
+ 			function convertirFecha (date , formato){
+ 				
+ 				var resul=""; 				
+ 				//TODO implementar conversion
+ 				
+ 				
+ 				
+ 				
+ 				return resul;
+ 			}

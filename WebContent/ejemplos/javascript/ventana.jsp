@@ -29,6 +29,16 @@
  		
  		<script type="text/javascript">
  		
+ 		
+ 		window.onresize=function(){
+ 			
+ 			window.resizeTo(500,500);
+ 		}
+ 		window.onclick=function(){
+ 		
+ 			window.resizeTo(500,500);
+ 		}
+ 		
  		//Obtener boton
  		var btn_w_close = document.getElementById('w_close');
  		btn_w_close.onclick =function(){
