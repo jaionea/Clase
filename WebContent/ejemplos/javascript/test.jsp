@@ -16,10 +16,11 @@
   
   	QUnit.test( "Date -Fechas", function( assert ) {
   		
-  		var fecha = new Date (2015,5,15);
+  		 var fecha = new Date (2015,5,15);
   		 
-  		 assert.ok(convertirFecha(fecha, CORTO)=='15/06/2015' );
-  		 assert.ok(convertirFecha(fecha, LARGO)==' el 15 de junio del 2015' );
+  		
+  		 assert.ok(convertirFecha(fecha, 'corto')=="15/6/2015" );
+  		 assert.ok(convertirFecha(fecha, 'largo')=="El 15 de junio del 2015" );
   		 assert.ok(convertirFecha(fecha, 'formato no valido')== null, 'formato no valido' );
   		 assert.ok(convertirFecha(null, CORTO)== null, 'formato no valido' );
   		 assert.ok(convertirFecha(undefined, CORTO)== null, 'formato no valido' );

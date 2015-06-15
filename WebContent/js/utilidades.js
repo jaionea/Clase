@@ -138,13 +138,42 @@ Funciones para utilizar en todo el proyecto
  			// Formato posibles para las fechas
  			const CORTO = 'corto';
  			const LARGO = 'largo';
+ 			
+ 			
  			function convertirFecha (date , formato){
  				
- 				var resul=""; 				
- 				//TODO implementar conversion
+ 				var resul=""; 
+ 				
+ 				var dia = date.getDate();
+ 				var mes = (date.getMonth()+1);
+ 				var año = date.getFullYear();
  				
  				
  				
  				
+ 					
+ 				switch(formato){
+ 				
+ 				case CORTO:
+ 					
+ 					resul= (dia+"/"+mes+"/"+año);
+ 					break;
+ 					
+ 				case LARGO:
+ 				
+ 					var meses= new Array("enero","febrero","marzo","abril","mayo","junio","julio","agosto","agosto","septiempbre","octubre","noviembre","diciembre");
+ 					meses[mes-1];
+ 					
+ 					resul= ("El "+dia+" de "+meses[mes-1]+" del "+año);	
+ 					break;
+ 				
+ 				default: 
+ 					resul=null;
+ 					
+ 				}
+ 						
+ 					
  				return resul;
- 			}
+ 		}
+ 			
+ 			

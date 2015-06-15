@@ -121,6 +121,7 @@
 				<li><a href="ejemplos/javascript/variables.jsp">Variables</a></li>
 				<li><a href="ejemplos/javascript/calculadora.jsp">Calculadora</a></li>
 				<li><a href="ejemplos/javascript/objetos.jsp">Objetos</a></li>
+				<li><a href="ejemplos/javascript/date.jsp">Objetos</a></li>
 				</ul>
 		
 				</li>
